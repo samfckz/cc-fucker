@@ -1,9 +1,17 @@
-import asyncio
-import requests
-import random
-import time
-import aiogram
-from faker import Faker
+try:
+    import asyncio
+    import requests
+    import random
+    import time
+    import aiogram
+    from faker import Faker
+except:
+    pip install requests
+    pip install random
+    pip install random
+    pip install time
+    pip install aiogram
+    pip install asyncio
 from aiogram.types import InputFile
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from keep_alive import live
@@ -20,8 +28,8 @@ def luhn_algorithm(card_number):
 
 async def send_messages():
     # Initialize the bot
-    bot = aiogram.Bot(token='-1002225168609') #put Your Bot Token
-    chat_id ='7431477906:AAGblI2dxvpOxEGPPI7SEdiHmc0fxWBEM-s' #Put Your Channel Chat Id Here
+    bot = aiogram.Bot(token='7431477906:AAGblI2dxvpOxEGPPI7SEdiHmc0fxWBEM-s') #put Your Bot Token
+    chat_id ='-1002225168609' #Put Your Channel Chat Id Here
 
     # Read the text file
     with open('cards.txt') as file:
