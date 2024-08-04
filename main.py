@@ -1,17 +1,9 @@
-try:
-    import asyncio
-    import requests
-    import random
-    import time
-    import aiogram
-    from faker import Faker
-except:
-    pip install requests
-    pip install random
-    pip install random
-    pip install time
-    pip install aiogram
-    pip install asyncio
+import asyncio
+import requests
+import random
+import time
+import aiogram
+from faker import Faker
 from aiogram.types import InputFile
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from keep_alive import live
