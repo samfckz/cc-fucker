@@ -98,7 +98,7 @@ async def send_messages():
         message += f"<b>⌮ Country ⤳ </b>  <code>{country_name} [{country_flag}]</code>\n"
         message += "━━━━━━━━━━━━━━\n"
         message += f"<b>⌮ 𝐄𝐱𝐭𝐫𝐚 ⤳ </b>  <code>{card_number}xxxx|{month}|{year}|rnd</code>\n"
-        message += f"⌖  Created by ⤳ @ccflaw\n"
+        message += f"⌖  Created by ⤳ @EthicalGod\n"
         message += "━━━━━━━━━━━━━━\n"
 
         # Send the message to the channel with parse_mode='HTML'
