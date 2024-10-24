@@ -1,1 +1,8 @@
-asyncio requests random time aiogram Faker InputFile InlineKeyboardMarkup InlineKeyboardButton live
+asyncio
+requests
+aiogram
+Faker
+InputFile
+InlineKeyboardMarkup
+InlineKeyboardButton
+live
